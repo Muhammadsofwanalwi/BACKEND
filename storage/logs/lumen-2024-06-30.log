@@ -1,0 +1,44 @@
+[2024-06-30 08:57:25] local.ERROR: Command "key" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"key\" is not defined. at C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php:737)
+[stacktrace]
+#0 C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find('key')
+#1 C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\User\\layananweb\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(160): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\User\\layananweb\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
+[2024-06-30 08:58:33] local.ERROR: There are no commands defined in the "key" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"key\" namespace. at C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php:669)
+[stacktrace]
+#0 C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php(720): Symfony\\Component\\Console\\Application->findNamespace('key')
+#1 C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find('key:generate')
+#2 C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\User\\layananweb\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(160): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\User\\layananweb\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2024-06-30 09:16:48] local.ERROR: There are no commands defined in the "key" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"key\" namespace. at C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php:669)
+[stacktrace]
+#0 C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php(720): Symfony\\Component\\Console\\Application->findNamespace('key')
+#1 C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find('key:generate')
+#2 C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\User\\layananweb\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(160): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\User\\layananweb\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2024-06-30 09:17:02] local.ERROR: There are no commands defined in the "key:" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"key:\" namespace. at C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php:669)
+[stacktrace]
+#0 C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php(720): Symfony\\Component\\Console\\Application->findNamespace('key:')
+#1 C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find('key::generate')
+#2 C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\User\\layananweb\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(160): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\User\\layananweb\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2024-06-30 09:17:10] local.ERROR: There are no commands defined in the "key:" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"key:\" namespace. at C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php:669)
+[stacktrace]
+#0 C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php(720): Symfony\\Component\\Console\\Application->findNamespace('key:')
+#1 C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find('key::generate')
+#2 C:\\Users\\User\\layananweb\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\User\\layananweb\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(160): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\User\\layananweb\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 

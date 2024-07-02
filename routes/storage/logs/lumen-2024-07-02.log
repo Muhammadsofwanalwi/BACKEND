@@ -1,0 +1,76 @@
+[2024-07-02 14:17:10] local.ERROR: Command "make:controllers" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:pipe
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:controllers\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:pipe
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at C:\\xampp\\htdocs\\layananweb\\vendor\\symfony\\console\\Application.php:737)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\layananweb\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find('make:controller...')
+#1 C:\\xampp\\htdocs\\layananweb\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\xampp\\htdocs\\layananweb\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(160): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\layananweb\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
+[2024-07-02 14:42:32] local.ERROR: A facade root has not been set. {"exception":"[object] (RuntimeException(code: 0): A facade root has not been set. at C:\\xampp\\htdocs\\layananweb\\vendor\\illuminate\\support\\Facades\\Facade.php:352)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\layananweb\\routes\\web.php(5): Illuminate\\Support\\Facades\\Facade::__callStatic('get', Array)
+#1 C:\\xampp\\htdocs\\layananweb\\bootstrap\\app.php(114): require('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\layananweb\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\xampp\\htdocs\\layananweb\\bootstrap\\app.php(111): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\layananweb\\artisan(18): require('C:\\\\xampp\\\\htdocs...')
+#5 {main}
+"} 
+[2024-07-02 14:47:56] local.ERROR: A facade root has not been set. {"exception":"[object] (RuntimeException(code: 0): A facade root has not been set. at C:\\xampp\\htdocs\\layananweb\\vendor\\illuminate\\support\\Facades\\Facade.php:352)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\layananweb\\routes\\web.php(6): Illuminate\\Support\\Facades\\Facade::__callStatic('get', Array)
+#1 C:\\xampp\\htdocs\\layananweb\\bootstrap\\app.php(114): require('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\layananweb\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\xampp\\htdocs\\layananweb\\bootstrap\\app.php(111): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\layananweb\\artisan(18): require('C:\\\\xampp\\\\htdocs...')
+#5 {main}
+"} 
